@@ -1,4 +1,4 @@
-package com.junwangit.netty.server;
+package com.junwangit.socket.server;
 
 import lombok.extern.slf4j.Slf4j;
 

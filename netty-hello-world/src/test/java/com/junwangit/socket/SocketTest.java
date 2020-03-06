@@ -1,6 +1,6 @@
-package com.junwangit.netty;
+package com.junwangit.socket;
 
-import com.junwangit.netty.client.SocketClient;
+import com.junwangit.socket.client.SocketClient;
 import org.junit.Test;
 
 /**

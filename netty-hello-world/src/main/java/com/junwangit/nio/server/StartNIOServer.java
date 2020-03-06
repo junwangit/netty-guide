@@ -1,20 +1,18 @@
-package com.junwangit.netty.server;
+package com.junwangit.nio.server;
 
 import java.io.IOException;
 
 /**
- * @description: 说明描述
+ * @description: 启动NIO服务
  * @author: hanfeng
  * @date: 2020-3-6
  **/
-public class StartSocket {
+public class StartNIOServer {
     public static void main(String[] args) {
         try {
-            Thread t = new SocketServer(19090);
-            t.run();
+            new NIOServer(19090).listener();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }
